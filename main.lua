@@ -86,7 +86,7 @@ function love.update(dt)
             value:OFF()
             value.turn_off = 10
         end
-    end
+    end--
 
     if states.FastMode == true then
         return
